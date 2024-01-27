@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore.js"></script>
+    
+    <script>
+        // Configuración específica de tu proyecto
+        const firebaseConfig = {
+            apiKey: "AIzaSyDbImM5GB031hxzVDwcM3nQTbW77neZG_4",
+  authDomain: "miniproyecto-814c3.firebaseapp.com",
+  projectId: "miniproyecto-814c3",
+  storageBucket: "miniproyecto-814c3.appspot.com",
+  messagingSenderId: "57522000984",
+  appId: "1:57522000984:web:d98587c1ff87ba3ca6e62d",
+  measurementId: "G-HYD622N91S"
+        };
+        
+        // Inicializa Firebase
+        
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+        
+        // Usa el servicio (por ejemplo, Firestore)
+        const db = firebase.firestore();
+    </script>
+
+    <title>Tu Aplicación HTML con Firebase</title>
+</head>
+<body>
+    
+    <input type="email" placeholder="ingresa email">
+    <input type="password" placeholder="ingresa contraseña">
+    <button>enviar</button>
+    <script> src="app.js"</script>
+    <!-- Aquí iría el contenido de tu página -->
+</body>
+</html>

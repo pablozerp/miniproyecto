@@ -1,0 +1,18 @@
+{
+  "name": "mipackega",
+  "version": "0.0.1",
+  "description": "mi paquete ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mi",
+    "paquete"
+  ],
+  "author": "pablo",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.2"
+  }
+}
